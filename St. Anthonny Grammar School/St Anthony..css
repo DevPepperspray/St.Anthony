@@ -1,0 +1,343 @@
+@media print{
+    .container{
+        zoom: 0.6!important;
+        margin: 0 20px!important;
+    }
+    @page {
+        /*size: auto;*/
+        size: portrait;
+        margin: 0;
+        /*margin: 0;*/
+    }
+    .contentContainer {
+        background: url(St\ Anthony.png) no-repeat!important;
+        background-size: 64%!important;
+        background-position: center!important;
+        width: 80%;
+        margin-top: 200px;
+        z-index: -1;
+        opacity: 0.2;
+        bottom: -1000px;
+        left: 151px;
+        position: absolute;
+    }
+
+    .single {
+        border: 2px solid black;
+        /* width: 100%; */
+        font-size: 15px;
+        line-height: 22px;
+        margin-top: 3px;
+        border-collapse: collapse;
+        text-align: center;
+        width: 30%;
+        margin-left: 316px!important;
+    }
+
+    .edit {
+        margin-right: 180px!important;
+        margin-top: 3px;
+        margin-left: 262px!important;
+        margin-top: 5px!important;
+    }
+
+    .edit2 {
+        margin-top: 5px!important;
+    }
+
+    .edit3 {
+        margin-left: 110px!important;
+        margin-right: 340px!important;
+    }
+    .foot {
+        border-spacing: 5px 28px!important;
+    }
+
+    .flex12 {
+        margin-top: 5px!important;
+    }
+
+    .flex13 {
+        margin-top: 15px!important;
+    }
+
+    .edit4 {
+        margin-right: 80px!important;
+    }
+    
+    .edit5 {
+        margin-right: 80px!important;
+    }
+
+}
+
+@font-face {
+    font-family: font;
+    src: url(cooper-black.ttf);
+}
+
+.container {
+    border: 4px solid black;
+    /* width: 100%; */
+    
+}
+
+.contentContainer {
+    background: url(St\ Anthony.png) no-repeat!important;
+    background-size: 68%!important;
+    background-position: center!important;
+    width: 80%;
+    height: 230%;
+    z-index: -1;
+    opacity: 0.2;
+    bottom: -1122px;
+    left: 100px;
+    position: absolute;
+}
+img {
+    width: 83px;
+    height: 88px;
+}
+
+.header {
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: separate;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.header td {
+    border: 2px solid black;
+}
+
+.firstrow {
+    text-align: center;
+    border: 2px solid black;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.firstrow td {
+    border: 2px solid black;
+}
+
+.empty {
+    text-align: center;
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: -2px;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.empty p {
+    color: white;
+    opacity: 0;
+}
+
+.empty td {
+    border: 2px solid black;
+    border-bottom: 4px;
+    /* border-top: 2px; */
+}
+
+.Secondrow {
+    border: 2px solid black;
+    width: 100%;
+    font-size: 15px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.Secondrow td{
+    border: 2px solid black;
+}
+
+.right {
+    text-align: right;
+}
+
+.left {
+    text-align: left;
+}
+
+.flex1 {
+    border: 2px solid black;
+    width: 100%;
+    font-size: 15px;
+    line-height: 22px;
+    width: 20%;
+    margin-right: 77px;
+}
+
+.flex1 td{
+    border: 2px solid black;
+    width: 82%;
+}
+
+.flex2 {
+    /* border: 2px solid black; */
+    width: 100%;
+    font-size: 15px;
+    line-height: 22px;
+    width: 30%;
+    height: 136px;
+    margin-top: 60px;
+    margin-right: 90px;
+}
+
+.flex2 td{
+    border: 2px solid black;
+    
+}
+
+.flex3 {
+    border: 2px solid black;
+    width: 100%;
+    font-size: 15px;
+    line-height: 22px;
+    width: 17%;
+    margin-right: 43px;
+}
+
+.flex3 td{
+    border: 2px solid black;
+    width: 82%;
+}
+
+.flex4 {
+    /* border: 2px solid black; */
+    width: 100%;
+    font-size: 15px;
+    line-height: 22px;
+    width: 20%;
+    height: 233px;
+    margin-left: 5px;
+}
+
+.flex4 td{
+    border: 2px solid black;
+    ;
+}
+
+.flex {
+    display: inline-flex;
+    width: 100%;
+    align-content: space-between;
+    margin-top: 80px;
+}
+
+.flex11 {
+    border: 2px solid black;
+    width: 100%;
+    font-size: 16px;
+    line-height: 22px;
+    
+}
+.edit3 {
+    margin-left: 200px;
+    margin-right: 440px;
+}
+
+.flex11 td{
+    border: 2px solid black;
+}
+
+.edit {
+    margin-right: 255px;
+    margin-top: 3px;
+    margin-left: 332px;
+}
+
+.single {
+    border: 2px solid black;
+    /* width: 100%; */
+    font-size: 15px;
+    line-height: 22px;
+    margin-top: 3px;
+    border-collapse: collapse;
+    text-align: center;
+    width: 30%;
+    margin-left: 386px;
+}
+
+.single td{
+    border: 2px solid black;
+}
+
+.flex11 {
+    display: in;
+}
+
+.flex11 {
+    display: inline-flex;
+    align-content: space-between;
+    border-collapse: collapse;
+    border: none;
+    font-size: 16px;
+    text-align: center;
+    height: 71px;
+}
+
+.rotate:first-child {
+    transform: rotate(70deg);
+}
+
+.hr {
+    border: 1px solid black;
+    transform: rotate(17deg);
+}
+
+.flex12 {
+    display: flex;
+    border-collapse: collapse;
+    border: none;
+    height: 80px;
+}
+
+.flex12 td{
+    border: 2px black solid;
+    height: 80px;
+}
+
+.flex13 {
+    display: inline-flex;
+    align-content: space-between;
+    border-collapse: collapse;
+    border: none;
+    height: 80px;
+}
+
+.flex13 td{
+    border: 2px black solid;
+    height: 80px;
+}
+
+.foot {
+    border: none;
+    border-spacing: 1px 22px;
+    width: 100%;
+}
+
+.foot td {
+    border: 2px solid;
+
+}
+
+.footer td {
+    border: 2px solid;
+
+}
+
+.footer {
+    border: none;
+    border-spacing: 2px 30px;
+    width: 100%;
+}
+
+.footer img {
+    margin-left: 347px;
+     height: 55px;
+}
